@@ -1,0 +1,246 @@
+/*V1.0.0
+New Business Signup Style
+------
+Please retain the above lines of code.*/
+
+.wpbdf-container form{
+    padding:15px;
+}
+
+.wpbdf-container .top-text{
+    margin-bottom:20px;
+    font-style: italic;
+}
+
+.wpbdf-container .form-label{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.wpbdf-container .form-label small, .wpbdf-container small{
+    font-size: 0.8em;
+    font-weight: normal;
+    display:block;
+    margin: 0px 0 5px 0;
+}
+.wpbdf-container textarea,.wpbdf-container input[text],.wpbdf-container input[number],.wpbdf-container input[email],.wpbdf-container input[password]{
+    font-size: 1em;
+    font-family:"Open Sans",Arial,Helvetica,Verdana,sans-serif !important;
+}
+
+
+
+.wpbdf-container .image_par{
+    position:relative;    
+    -webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+}
+
+
+.wpbdf-container  #business_form input[type=text],.wpbdf-container  #business_form input[type=email],.wpbdf-container #business_form input[type=number], .wpbdf-container #business_form textarea, .wpbdf-container #business_form select{
+    border-radius:3px;
+    width:100%;
+    border:1px solid #ccc;
+}
+
+.wpbdf-container textarea{
+    min-height: 250px;
+    font-size: 0.9em;
+    padding: 15px;
+}
+
+.wpbdf-container textarea#tcs{
+    font-size: 0.9em;
+    margin-bottom:20px;
+}
+
+
+.wpbdf-container #img_file,.wpbdf-container #img_file_1, .wpbdf-container #img_file_2,.wpbdf-container #img_file_3,.wpbdf-container #img_file_4,.wpbdf-container #img_file_5{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    display:block;
+    cursor: pointer;
+    font-size: 0.8em;
+    border: 0 !important;
+    border-radius: 0px;
+    background-color:rgba(0,0,0,0.28);
+    -webkit-box-sizing: border-box;
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    color: #fff;
+    padding:5px;
+}
+
+
+.wpbdf-container .twitter-admin input,.wpbdf-container .facebook-admin input,.wpbdf-container .linkedin-admin input,.wpbdf-container .yt-admin input,.wpbdf-container .insta-admin input,.wpbdf-container .google-admin input{
+    -webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+    width:Calc(100% - 40px) !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: 0 !important;
+}
+
+
+.wpbdf-container .twitter-admin.logo,
+.wpbdf-container .facebook-admin.logo,
+.wpbdf-container .linkedin-admin.logo,
+.wpbdf-container .yt-admin.logo,
+.wpbdf-container .insta-admin.logo,
+.wpbdf-container .google-admin.logo{
+    vertical-align: top;
+    display: inline-block;
+    margin: 0;
+    padding: 11px 0 0 0;
+    line-height: 1em;
+    font-size: 1em;
+    width: 39px !important;
+    height: 39px !important;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    -webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+
+}
+
+.wpbdf-container span.social-title{
+    display:block;
+    margin-bottom:5px;
+}
+
+.wpbdf-container .twitter-admin.logo{background-color:rgba(85, 172, 238, 1);}
+.wpbdf-container .facebook-admin.logo{background-color:rgba(59, 89, 152,1);}
+.wpbdf-container .google-admin.logo{background-color:rgba(221, 75, 57,1);}
+.wpbdf-container .linkedin-admin.logo{background-color:rgba(0, 123, 181,1);}
+.wpbdf-container .insta-admin.logo{background-color:rgba(233, 89, 80,1);}
+.wpbdf-container .yt-admin.logo{background-color:rgba(255, 0, 0,1);}
+
+
+.wpbdf-container .selected_img,.wpbdf-container .unselected_img{    
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 2px solid #00b100;
+    color: #00b100;
+    display:none;
+}
+.wpbdf-container .unselected_img{ 
+    border: 2px solid #ffb100;
+    color: #ffb100;
+}
+.wpbdf-container .selected_img .fa,.wpbdf-container .unselected_img .fa{ margin-right:5px;}
+
+
+
+#business_form .left{
+	display:inline-block;
+	width:49%;
+	position:relative;
+	vertical-align:top;
+	margin-right:1%;
+}
+#business_form .right{
+	display:inline-block;
+	width:49%;	
+	position:relative;
+	vertical-align:top;
+	margin-left:1%;
+}
+#business_form .form-option{
+	padding:10px 10px 10px 10px;
+	display:block;
+}
+#business_form .form-option .form-label{
+	padding-bottom:10px 10px 8px 0px;
+	display:block;
+}
+#business_form .subscription-flag{
+    background:rgba(239, 239, 239, 0.5);
+    margin-bottom:10px !important;
+}
+#business_form .form-option .form-field{
+	display:block;
+    text-align:left;
+}
+
+#business_form .columns{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+#business_form input[type=checkbox]{
+	margin:5px 0;
+}
+
+#business_form ul#socialgroup{
+	margin: 0;
+	padding: 0;
+}
+#business_form ul#socialgroup li{
+	margin:5px 0;
+	list-style: none;
+}
+
+
+
+
+#logo_remove_button,.library_remover_button{
+    margin: 0 0 0 0 !important;
+    text-transform: none !important;
+    background-color: #e00000 !important;
+    border: 1px solid #e00000 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 5px;
+    cursor:pointer;
+}
+.wpbdf-container .image_par{
+    border: 1px solid #ccc;  
+    display: inline-block;
+    margin: 5px auto;
+    padding: 0 0 27px 0;
+    width: 28%;
+    vertical-align:top;
+    max-width: 210px;
+    position:relative;
+    -webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+}
+.wpbdf-container .image_par img{
+    width: 100%;
+    height:auto;
+}
+.wpbdf-container .bottompad{
+    padding-bottom:10px;
+}
+@media screen and (max-width:1300px){
+    #business_form .left, #business_form .right{
+            display:block !important;
+            width:100% !important;
+            margin:0;
+        }
+}
+@media screen and (max-width:1000px){
+    .allimages{
+        text-align:center !important;
+    }
+}
+@media screen and (max-width:450px){
+    .wpbdf-container .image_par {
+        border: 1px solid #ccc;
+        display: block;
+        margin: 5px auto;
+        padding: 10px;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:350px){
+   .wpbdf-container  .image_par img{
+        max-width: 200px;
+        height:auto;
+    }
+}

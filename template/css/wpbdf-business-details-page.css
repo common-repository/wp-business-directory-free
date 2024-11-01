@@ -1,0 +1,420 @@
+/*V1.0.0
+Business Details Style
+------
+Please retain the above lines of code.*/
+
+.wpbdf-business{
+	margin:auto;
+	text-align:left;
+	display:block;
+	position:relative;
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+}
+
+.wpbdf-business ul,.wpbdf-business ol{	padding-left:20px;}
+.wpbdf-business ul li{	list-style-type:disc;}
+.wpbdf-business ol li{	list-style-type:decimal;}
+.wpbdf-business label{  width: 100px;  vertical-align:middle;}
+.wpbdf-business h3{font-weight:500;}
+
+/*Heading styings*/
+
+.description h3{
+	padding:15px;
+	border-top:dotted 1px #dad1d1;
+	border-bottom:dotted 1px #dad1d1;
+	background-color:#fbfbfb;
+	margin-bottom:15px;	
+    -webkit-box-sizing: border-box;
+    moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+
+h2.entry-title{
+	font-size: 2em;
+	font-weight:500;
+}
+
+.wpbdf-business .description{
+	padding:0;
+	margin:0px 0 0 0;
+}
+
+.wpbdf-business .description .description-text{
+	padding:10px;
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+}
+
+/*Map */
+
+.wpbdf-business #map{
+	width:100%;
+	height: 350px;
+	display:block;
+}
+
+/*Header of busines content */
+
+.wpbdf-business .wpbdf-header{
+	width:100%;
+	margin:auto;
+	margin-bottom:20px;
+	text-align:left;
+	display:block;
+	border: 0;
+	background-color:#fbfbfb;
+	padding:15px 10px 15px 15px;
+	position:relative;
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+}
+
+/*Main 2 columns of business data*/
+
+.wpbdf-business .left{
+	width:60% !important;
+	display:inline-block;
+	float:left;
+	vertical-align:top;
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+	margin-top:20px;
+	padding-right:20px;
+}
+
+.wpbdf-business .right{
+	width:40% !important;
+	display:inline-block;
+	float:left;
+	vertical-align:top;
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+	margin-top:20px;
+}
+
+/* Summary data area inc address */
+
+.wpbdf-business .wpbdf-header .intro-div{
+	padding-right:10px;
+	vertical-align:top;
+	display:inline-block;
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+	width:Calc(100% - 225px);
+	float:left;
+}
+.wpbdf-business .details-address{margin-bottom:10px;}
+.wpbdf-business .details-address span.icon.address{background-position:0px 0;vertical-align: top;margin-right:0;display:none;}
+.wpbdf-business .details-address .address-text{display:inline-block;}
+
+.wpbdf-business .business-types,.wpbdf-business .business-cat-frees{
+	font-size:0.8em;
+	margin: 0 0 5px 0;
+}
+
+.wpbdf-business .business-types a,.wpbdf-business .business-cat-frees a{
+	color:rgba(0,156,6,1);
+}
+
+.wpbdf-business .wpbdf-header .logo-div{
+	padding-right:10px;
+	vertical-align:middle;
+	display:inline-block;
+	width:225px;
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+	float:right;    
+	text-align: right;
+}
+
+.wpbdf-business .wpbdf-header .logo-div img{
+	max-width: 100%;
+    height: auto;
+}
+
+
+/*List of business contacts, inc email, phone, website etc */
+
+.wpbdf-business .details{
+	padding:0;
+	margin:0;
+	display:inline-block;
+	width:65%;
+	float:left;
+}
+
+.wpbdf-business span.icon{
+	vertical-align:middle;
+	width:25px;
+	height:25px;
+	margin-right:5px;
+	margin-left: 0;
+	display:inline-block;
+	background:url(../img/icons.png) 0 0 no-repeat transparent;
+}
+
+.wpbdf-business .details.list{
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+	padding:5px 10px;
+	margin-bottom:10px;
+}
+.wpbdf-business .details.list a{
+	color:rgba(0,156,6,1);
+	font-weight:600;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.wpbdf-business .details.list .details-tel,
+.wpbdf-business .details.list .details-web,
+.wpbdf-business .details.list .details-email,
+.wpbdf-business .details.list .details-fax,
+.wpbdf-business .details.list .details-print,
+.wpbdf-business .details.list .details-social{
+	display:block;
+	padding:5px;
+}
+
+.wpbdf-business .details span.icon.tel{background-position:-25px 0;}
+.wpbdf-business .details span.icon.email{background-position:-50px 0;}
+.wpbdf-business .details span.icon.fax{background-position:-75px 0;}
+.wpbdf-business .details span.icon.print{background-position:-150px 0;}
+.wpbdf-business .details span.icon.website{background-position:-100px 0;}
+.wpbdf-business .details span.icon.social{background-position:-125px 0;}
+
+
+/*Social Media links */
+
+.wpbdf-business .details ul.social-list, .wpbdf-business .details ul.social-list li{
+	list-style: none;
+	padding:0;
+	margin:0;
+	vertical-align: middle;
+	display:inline-block;
+}
+.wpbdf-business .details ul.social-list li{
+ 	margin:0 5px 0 0;
+ 	padding:0;
+}
+.wpbdf-business .details ul.social-list li a{
+    line-height: 1.8em;
+    font-size: 1.2em;
+    width:30px !important;height:30px !important;display:block !important;color:#fff;text-align: center;font-weight:500;
+}
+
+.wpbdf-business .details ul.social-list li.tw a{background-color:rgba(85, 172, 238, 1);}
+.wpbdf-business .details ul.social-list li.tw a:hover{background-color:rgba(85, 172, 238, 0.7);}
+.wpbdf-business .details ul.social-list li.fb a{background-color:rgba(59, 89, 152,1);}
+.wpbdf-business .details ul.social-list li.fb a:hover{background-color:rgba(59, 89, 152,0.7);}
+.wpbdf-business .details ul.social-list li.gp a{background-color:rgba(221, 75, 57,1);}
+.wpbdf-business .details ul.social-list li.gp a:hover{background-color:rgba(221, 75, 57,0.7);}
+.wpbdf-business .details ul.social-list li.li a{background-color:rgba(0, 123, 181,1);}
+.wpbdf-business .details ul.social-list li.li a:hover{background-color:rgba(0, 123, 181,0.7);}
+.wpbdf-business .details ul.social-list li.in a{background-color:rgba(233, 89, 80,1);}
+.wpbdf-business .details ul.social-list li.in a:hover{background-color:rgba(233, 89, 80,0.7);}
+.wpbdf-business .details ul.social-list li.yt a{background-color:rgba(255, 0, 0,1);}
+.wpbdf-business .details ul.social-list li.yt a:hover{background-color:rgba(255, 0, 0,0.7);}
+
+/*Description */
+
+.description .description-content{
+	padding:10px;
+}
+
+
+
+/*Image slideshow */
+
+.wpbdf-business .wpbdf-image-slideshow{	
+	display:block;
+	position:relative;
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0px 0 20px 0;
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+}
+
+
+
+/*Footer content of business details */
+
+.footer-content{
+	display:block;
+	width:100%;
+	margin-top:20px;
+	margin-bottom:0px;
+	padding-top:20px;
+	border-top: 1px dotted #ccc;
+	position:relative;
+}
+
+.footer-content .button_section{
+	width:80%;
+	display:inline-block;
+	text-align:left;
+}
+.footer-content .button_section a{
+	display:inline-block;
+	float:left;
+	margin-right:5px;
+}
+
+.footer-content .social_share_section{
+	width:20%;
+	display:inline-block;
+	text-align:right;
+}
+
+/*Resizing*/
+
+@media screen and (max-width:1200px){
+	.footer-content .button_section{
+		width:100%;
+		display:block;
+		text-align:left;
+	}
+
+	.footer-content .social_share_section{
+		width:100%;
+		display:block;
+		text-align:left;
+	}
+}
+
+@media screen and (min-width:841px) and (max-width:1060px){	
+	.wpbdf-business .wpbdf-header .intro-div,.wpbdf-business .wpbdf-header .logo-div {
+	    padding-right: 0px;
+	    width: 100%;
+	    display:block;
+	    float: none;
+	    margin: auto;
+	    text-align: center;
+	}
+	.wpbdf-business .wpbdf-header .logo-div {
+		float:left;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (min-width:640px) and (max-width:1000px){
+	.wpbdf-business .details {
+	    width: 62%;
+	}
+}
+
+@media screen and (max-width:840px){
+
+	.wpbdf-business .left,.wpbdf-business .right {
+	    width: 100% !important;
+	    display: block;
+	    float: none;
+	    margin-top: 20px;
+	    padding-right: 0px;
+	}
+
+	.footer-content .social_share_section{
+		width:100%;
+		display:block;
+		text-align:center;
+	}
+	.footer-content .button_section{
+		width:100%;
+		display:block;
+		text-align:left;
+	} /*javascript will move "footer-content" to the bottom of the page at this size*/
+}
+
+@media screen and (max-width:530px){
+
+	.wpbdf-business #map{
+		height: 200px;
+	}
+	.wpbdf-business .opening-times,.wpbdf-business .details{
+		padding:0;
+		margin:0 0 0 0;
+		display:block;
+		width:100%;
+		float:none;
+	}
+	.wpbdf-business .details.list {
+	    padding: 0 0 15px 0;
+	}
+	.reviews h3, .description h3{
+    	padding: 10px;
+    }
+    .wpbdf-business .description{
+	    margin: 0;
+	}
+	.wpbdf-business .wpbdf-header .intro-div,.wpbdf-business .wpbdf-header .logo-div {
+	    padding-right: 0px;
+	    width: 100%;
+	    display:block;
+	    float: none;
+	    margin: auto;
+	    text-align: center;
+	}
+	.wpbdf-business .wpbdf-header .logo-div {
+		float:left;
+		margin-bottom: 10px;
+	}
+
+}
+
+
+@media print {
+
+	.wpbdf-business .left,.wpbdf-business .right {
+	    width: 100% !important;
+	    display: block;
+	    float: none;
+	    margin-top: 20px;
+	    padding-right: 0px;
+	}
+
+	.footer-content .social_share_section,.footer-content .button_section{
+		display:none;
+	}
+
+	.wpbdf-business #map{
+		height: 200px;
+	}
+	.wpbdf-business .details{
+		padding:0;
+		margin:0 0 0 0;
+		display:block;
+		width:100%;
+		float:none;
+	}
+	.wpbdf-business .details.list {
+	    padding: 0 0 15px 0;
+	}
+	.description h3{
+    	padding: 10px;
+    }
+    .wpbdf-business .description{
+	    margin: 0;
+	}
+	.wpbdf-image-slideshow,.details-social,.details-social,.footer-content{
+		display:none !important;
+	}
+
+	.wpbdf-business span.icon{
+		display: none !important;
+	}
+	.wpbdf-business span.icon {
+	    display:none !important;
+	}
+	.wpbdf-business .details.list .details-fax::before{
+		content:"Fax: ";
+	}
+	.wpbdf-business .details.list .details-tel::before{
+		content:"Tel: ";
+	}
+	.wpbdf-business .details.list .details-web::before{
+		content:"Web: ";
+	}
+	.wpbdf-business .details.list .details-email::before{
+		content:"Email: ";
+	}
+	.wpbdf-business .details.list {
+	    padding: 5px 10px 5px 0;
+	}
+
+}

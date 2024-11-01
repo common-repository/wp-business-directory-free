@@ -1,0 +1,211 @@
+/*V1.0.0
+Global Styles
+------
+Please retain the above lines of code.*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i');
+
+.wpbdf-container{font-family:"Open Sans",Arial,Helvetica,Verdana,sans-serif !important;padding: 50px 50px;max-width:2000px;margin:auto auto;font-size:15px;line-height: 1.2em;}
+
+.wpbdf-container h1{
+	font-size:1.6em !important;
+	line-height:1.2em !important;
+    margin-top:10px !important;
+	margin-bottom:10px !important;
+}
+.wpbdf-container h2{
+	font-size:1.3em !important;
+	line-height:1em !important;
+    margin-top:10px !important;
+	margin-bottom:10px !important;
+}
+
+.wpbdf-container h3{
+	font-size:1.3em !important;
+	line-height:1em !important;
+	margin-bottom:10px !important;
+    margin-top:10px !important;
+	font-weight:600 !important;
+}
+
+.wpbdf-container p{line-height: 1.2em;}
+
+.wpbdf-container em{font-style:italic !important;}
+
+.wpbdf-container strong{font-weight:600;}
+
+
+.clear{float:none;clear:both;}
+
+.wpbdf-container .btn{
+    text-decoration: none;
+    display: inline-block;   
+    vertical-align: top;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 8px 12px !important;
+}
+
+.wpbdf-container .btn.clr{
+    box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(249, 249, 249) 5%, rgb(233, 233, 233) 100%) rgb(249, 249, 249);
+    border: 1px solid rgb(220, 220, 220);
+    color:rgba(0,0,0,0.7) !important;
+    font-style: normal !important;
+    padding-bottom: 7px;
+}
+.wpbdf-container .btn.clr:hover,.wpbdf-container .btn.clr[disabled]{
+    background: linear-gradient(rgba(249, 249, 249,0.55) 5%, rgba(233, 233, 233,0.55) 100%) rgba(249, 249, 249,0.55);
+}
+
+.wpbdf-container .btn.clr[disabled]{
+    color:rgba(0,0,0,0.45) !important;
+    text-shadow: none;
+}
+.wpbdf-container .btn.white{
+    box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(255, 255, 255) 5%, rgb(246, 246, 246) 100%) rgb(255, 255, 255);
+    border: 1px solid rgb(220, 220, 220);
+    color:rgba(0,0,0,0.7) !important;
+    font-style: normal !important;
+    padding-bottom: 7px;
+}
+.wpbdf-container .btn.white:hover,.wpbdf-container .btn.white[disabled]{
+    background: linear-gradient(rgba(255, 255, 255,0.85) 5%, rgba(246, 246, 246,0.85) 100%) rgba(255, 255, 255,0.85);
+}
+
+.wpbdf-container .btn.white[disabled]{
+    color:rgba(0,0,0,0.45) !important;
+    text-shadow:none;
+}
+
+
+.wpbdf-container .btn.back{
+    box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(249, 249, 249) 5%, rgb(233, 233, 233) 100%) rgb(249, 249, 249);
+    border: 1px solid rgb(220, 220, 220);
+    color:rgba(0,0,0,0.7) !important;
+    font-style: normal !important;
+    padding: 6px 10px 7px 10px;
+}
+.wpbdf-container .btn.back:hover,.wpbdf-container .btn.back[disabled]{
+    background: linear-gradient(rgba(249, 249, 249,0.55) 5%, rgba(233, 233, 233,0.55) 100%) rgba(249, 249, 249,0.55);
+    /*color: rgba(193, 193, 193,0.6);
+    border: solid 1px rgba(193, 193, 193,0.6);*/
+}
+.wpbdf-container .btn.back[disabled]{
+    color:rgba(0,0,0,0.45) !important;
+    text-shadow: none;
+}
+
+
+
+.wpbdf-container .btn.green{ 
+    background: linear-gradient(rgb(116, 173, 90) 5%, rgb(104, 165, 75) 100%) rgb(116, 173, 90);
+    border: 1px solid rgb(59, 110, 34);
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0,0.5) 0px 0px 1px;
+    box-shadow: rgb(154, 204, 133) 1px 1px 0px 0px inset;
+}
+.wpbdf-container .btn.green:hover,.wpbdf-container .btn.green[disabled]{
+    background: linear-gradient(rgba(116, 173, 90,0.55) 5%, rgba(104, 165, 75,0.55) 100%) rgba(116, 173, 90,0.55);
+    border: 1px solid rgb(59, 110, 34);
+}
+.wpbdf-container .btn.green[disabled]{
+    color: rgba(255, 255, 255,0.6);
+    text-shadow: none;
+}
+.wpbdf-container .btn.yellow{
+    border: 1px solid rgb(220, 195, 33);
+    box-shadow: rgb(255, 246, 175) 1px 1px 0px 0px inset;
+    background: linear-gradient(rgb(255, 236, 100) 5%, rgb(255, 201, 78) 100%) rgb(255, 236, 100);
+    text-shadow: rgba(0, 0, 0,0.8) 0px 0px 1px;
+    color: rgb(255, 255, 255);
+}
+.wpbdf-container .btn.yellow:hover,.wpbdf-container .btn.yellow[disabled]{
+    background: linear-gradient(rgba(255, 236, 100,0.55) 5%, rgba(255, 201, 78,0.55) 100%) rgba(255, 236, 100,0.55);
+    border: 1px solid rgb(220, 195, 33);
+}
+
+.wpbdf-container .btn.yellow[disabled]{
+    color: rgba(255, 255, 255,0.6);
+    text-shadow: none;
+}
+.wpbdf-container .btn.orange{
+    box-shadow: rgb(255, 223, 176) 1px 1px 0px 0px inset;
+    background: linear-gradient(rgb(255, 199, 102) 5%, rgb(255, 171, 35) 100%) rgb(255, 199, 102);
+    border: 1px solid rgb(255, 170, 34);
+    text-shadow: rgba(0, 0, 0,0.8) 0px 0px 1px;
+    color: rgb(255, 255, 255);
+}
+.wpbdf-container .btn.orange:hover,.wpbdf-container .btn.orange[disabled]{
+    /*background: rgba(255, 147, 9,0.45);*/
+    background: linear-gradient(rgba(255, 199, 102,0.55) 5%, rgba(255, 171, 35,0.55) 100%) rgba(255, 199, 102,0.55);
+    border: 1px solid rgba(255, 170, 34,0.7);
+}
+
+.wpbdf-container .btn.orange[disabled]{
+    color: rgba(255, 255, 255,0.6);
+    text-shadow: none;
+}
+
+.wpbdf-container .btn.red {
+    box-shadow: rgb(245, 151, 142) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(242, 69, 55) 5%, rgb(198, 45, 31) 100%) rgb(242, 69, 55);
+    border: 1px solid rgb(208, 39, 24);
+    text-shadow: rgba(0, 0, 0,0.8) 0px 0px 1px;
+    color: rgb(255, 255, 255);
+}
+.wpbdf-container .btn.red:hover,.wpbdf-container .btn.red[disabled]{
+    /*background: rgba(255, 9, 9,0.45);*/
+    border: 1px solid rgb(208, 39, 24);
+    background: linear-gradient(rgba(242, 69, 55,0.55) 5%, rgba(198, 45, 31,0.55) 100%) rgba(242, 69, 55,0.55);
+}
+.wpbdf-container .btn.red[disabled]{
+    color: rgba(255, 255, 255,0.6);
+    text-shadow: none;
+}
+
+
+.wpbdf-container select, 
+.wpbdf-container input[type=text], 
+.wpbdf-container input[type=email], 
+.wpbdf-container input[type=number], 
+.wpbdf-container textarea{
+	-webkit-box-sizing: border-box;moz-box-sizing: border-box;box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1em;
+    line-height: auto !important;
+    color: #2c3e50;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #dce4ec;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    height:auto !important;
+}
+.wpbdf-breadcrumb{
+	padding:15px 10px;
+	background-color: #fbfbfb;
+	border:0;
+	font-size:0.8em;
+	font-style: italic;
+}
+.wpbdf-breadcrumb a{
+	color: rgba(0,156,6,1);
+	text-decoration:none;
+}
+
+/* Responsive resizing */
+
+
+@media screen and (max-width:800px){
+    .wpbdf-container{padding: 25px 25px;}
+}
